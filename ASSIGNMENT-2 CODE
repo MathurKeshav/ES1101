@@ -18,7 +18,7 @@ Department=input("Branch: ").strip().title()
 CGPA =input("CGPA: ")
 print("Hey," , Name, "here!")
 print("My SID is:" , SID)
-print("I am from" , Name, Department, "and my CGPA is", CGPA)
+print("I am", Name, "from", Department, "and my CGPA is", CGPA)
 #------------------------------#
 
 #Q3
@@ -36,16 +36,16 @@ print("Right shift b with 4 bits:" , b>>4)
 #Q4
 a=input("Word: ")
 if 'name' in a:
-    print("Yes, The word 'name' is present in 'Word'.")
+    print("Yes, The word 'name' is present in" , a)
 else:
-    print("No, The word 'name' is present in 'Word'.")
+    print("No, The word 'name' is present in" , a)
 #------------------------------#
 
 #Q5
 x=int(input("First side: "))
 y=int(input("Second side: "))
 z=int(input("Third side: "))
-i=str(bool(x + y > z and y + z > x and x + z > y)).replace(str(True), "Yes").replace(str(False), "No")
+i=str(bool(x+y>z and y+z>x and x+z>y)).replace(str(True), "Yes, riangle exists.").replace(str(False), "No, Triangle doesn't exist.")
 print(i)
 #------------------------------#
 
