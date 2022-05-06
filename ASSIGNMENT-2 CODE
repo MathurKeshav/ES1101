@@ -1,0 +1,66 @@
+              #PYTHON ASSIGNMENT-2 (CODES)
+
+#-------------------------------#
+#Q1
+str1=("Python is a case sensative language")
+print(len(str1))
+print(str1[::-1])
+print(str1[10::])
+print(str1.replace("case sensative,", "object oriented"))
+print(str1.find('a'))
+print(str1.replace(" ",""))
+#-------------------------------#
+
+#Q2
+Name =input("Name: ").strip().title()
+SID =input("SID: ")
+Department=input("Branch: ").strip().title()
+CGPA =input("CGPA: ")
+print("Hey," , Name, "here!")
+print("My SID is:" , SID)
+print("I am from" , Name, Department, "and my CGPA is", CGPA)
+#------------------------------#
+
+#Q3
+a=56
+b=10
+print(a&b)
+print(a|b)
+print(a^b)
+print("Left shift a with 2 bits:" , a<<2)
+print("Left shift b with 2 bits:" , b<<2)
+print("Right shift a with 2 bits:" , a>>2)
+print("Right shift b with 4 bits:" , b>>4)
+#------------------------------#
+
+#Q4
+a=input("Word: ")
+if 'name' in a:
+    print("Yes, The word 'name' is present in 'Word'.")
+else:
+    print("No, The word 'name' is present in 'Word'.")
+#------------------------------#
+
+#Q5
+x=int(input("First side: "))
+y=int(input("Second side: "))
+z=int(input("Third side: "))
+i=str(bool(x + y > z and y + z > x and x + z > y)).replace(str(True), "Yes").replace(str(False), "No")
+print(i)
+#------------------------------#
+
+#Q6
+a=int(input())
+b=int(input())
+c=a^b
+d=str(bin(c))
+occurence=0
+start=0
+for i in range(len(d)):
+        j=d.find("1", start)
+        start=j+1
+        occurence += 1
+print(bin(a))
+print(bin(b))
+print(occurence , "bits need to be flipped")
+#--------------------------------#
