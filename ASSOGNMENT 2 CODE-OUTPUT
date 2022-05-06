@@ -1,0 +1,51 @@
+                #PYTHON ASSIGNMENT-2 (CODES-OUTPUT)
+
+#-------------------------#
+#Q1
+35
+egaugnal evitasnes esac a si nohtyP
+a case sensative language
+Python is a case sensative language
+10
+Pythonisacasesensativelanguage
+#-------------------------#
+
+#Q2
+Name: keshav mathur
+SID: 21107049
+Branch: mechanical engineering
+CGPA: 9.9
+Hey, Keshav Mathur here!
+My SID is: 21107049
+I am Keshav Mathur from Mechanical Engineering and my CGPA is 9.9
+#-------------------------#
+
+#Q3
+8
+58
+50
+Left shift a with 2 bits: 224
+Left shift b with 2 bits: 40
+Right shift a with 2 bits: 14
+Right shift b with 4 bits: 0
+#-------------------------#
+
+#Q4
+Word: kjjgjhfsjhanamehhdkg
+Yes, The word 'name' is present in 'Word'.
+#-------------------------#
+
+#Q5
+First side: 1
+Second side: 2
+Third side: 3
+No, Triangle doesn't exist.
+#-------------------------#
+
+#Q6
+What's a? 34
+What's b? 78
+a in binary is: 100010
+b in binary is: 1001110
+9 bits need to be flipped
+#-------------------------#
