@@ -1,0 +1,74 @@
+'''
+ASSIGNMENT-3
+NAME-KESHAV MATHUR
+SID-21107049
+BRANCH-MECHANICAL
+'''
+
+
+#QUESTION-1
+
+Enter the number: 25
+25 in binary is: 11001
+
+
+#-------------------------#
+QUESTION-2
+
+Enter a mathematical expression:2^4+5-10+69
+2**4+5-10+69 = 80.0000
+
+#-------------------------#
+QUESTION-3
+
+(3+4)*(5) = 35
+Enter the value of 'n' to calculate the value of '(n(n-1))/2': 5
+For 'n': 5 , the value of '(n(n-1))/2' is: 10.0
+Enter the value of 'r' to calculate 4pi(r^2): 2
+For 'r': 2 , the value of 4pi(r^2) is: 50.2655
+Value of a in degrees: 60
+Value of b in degrees: 30
+Value of 'r': 2
+The value of expression '(r*(cos(a)^2) + r*(sin(b)^2))^1/2':  1.0
+To find the slope between two points.
+Enter the point x-axis of point 1: 3
+Enter the point y-axis of point 1: 4
+Enter the point x-axis of point 2: 5
+Enter the point y-axis of point 2: 6
+The slope between 2 points is: 1.0000
+
+
+#-------------------------#
+QUESTION-4
+0
+1
+2
+3
+4
+3
+4
+5
+6
+7
+8
+9
+4
+7
+10
+15
+13
+11
+9
+7
+5
+4
+
+
+#-------------------------#
+QUESTION-5
+
+Enter number of hydrogen atoms 3
+Enter number of carbon atoms 4
+Enter number of oxygen atoms 6
+The molecular weight of the compound is 147.06302
+#-------------------------#
