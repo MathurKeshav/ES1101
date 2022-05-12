@@ -1,0 +1,98 @@
+              #ASSIGNMENT-3(CODES)
+              #NAME- KESHAV MATHUR
+              #SID- 21107049
+              #BRANCH- MECHANICAL
+
+#----------------------------------------------------------#
+#QUESTION-1
+
+a=int(input("Enter the number: "))
+print(a, "in binary is:", bin(a).replace("0b" ,  ""))
+
+
+
+#----------------------------------------------------------#
+#QUESTION-2
+
+while True:
+    expression = input('Enter a mathematical expression:').replace("^" , "**")
+    print (expression, "=" , end="")
+    print(f" {eval(expression):.4f}")
+    break
+
+
+
+#----------------------------------------------------------#
+#QUESTION-3
+
+import math
+#A)
+a = (3+4)*(5)
+print("(3+4)*(5)", "=", a)
+
+#B)
+a=int(input("Enter the value of 'n' to calculate the value of '(n(n-1))/2': "))
+print("For 'n':" , a , ", the value of '(n(n-1))/2' is: " , end="")
+print((a*(a-1))/2)
+
+#C)
+r=int(input("Enter the value of 'r' to calculate 4pi(r^2): "))
+b=4*(math.pi)*(r**2)
+print("For 'r':" , r, ", the value of 4pi(r^2) is: " ,end="")
+print(f"{b:.4f}")
+
+#D)
+A_1=int(input("Value of a in degrees: "))
+A_2=int(input("Value of b in degrees: "))
+c=A_1*(math.pi)/180
+d=A_2*(math.pi)/180
+e=int(input("Value of 'r': "))
+print("The value of expression '(r*(cos(a)^2) + r*(sin(b)^2))^1/2': " , math.sqrt((e*(math.cos(c))**2) +e*(math.sin(d))**2))
+
+#E)
+print("To find the slope between two points.")
+X_1=int(input("Enter the point x-axis of point 1: "))
+Y_1=int(input("Enter the point y-axis of point 1: "))
+X_2=int(input("Enter the point x-axis of point 2: "))
+Y_2=int(input("Enter the point y-axis of point 2: "))
+print("The slope between 2 points is: " , end="")
+print(f"{(Y_2 - Y_1)/(X_2 - X_1):.4f}")
+
+
+
+#----------------------------------------------------------#
+#QUESTION 4
+
+for a in range(5):
+    print(a)
+
+for b in range(3,10):
+    print(b)
+   
+for c in range(4,13,3):
+    print(c)
+
+for d in range(15,5,-2):
+    print(d)
+
+for e in range(5,3,-1):
+    print(e)
+
+
+
+#----------------------------------------------------------#
+#QUESTION 5
+
+H_w = 1.00794
+C_w = 12.0107
+O_w = 15.9994
+
+H = int(input("Enter number of hydrogen atoms "))
+C = int(input("Enter number of carbon atoms "))
+O = int(input("Enter number of oxygen atoms "))
+         
+weight = H*H_w + C*C_w + O*O_w
+
+print("The molecular weight of the compound is", weight)
+#----------------------------------------------------------#
+
