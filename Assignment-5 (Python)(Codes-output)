@@ -1,0 +1,144 @@
+'''
+Assignment-5 (Python)(Codes-output)
+Keshav Mathur
+21107049
+Mechanical Engineering
+'''
+#----------------------#
+#Q1
+Enter a word or statement: My name is Keshav.
+The reverse of 'My name is Keshav.' is: .vahseK si eman yM
+
+
+#----------------------#
+#Q2
+Enter the starting number of the range (including it): 1
+Enter the ending number of the range (including it): 100
+Number to be divided with the range of number: 5
+5
+10
+15
+20
+25
+30
+35
+40
+45
+50
+55
+60
+65
+70
+75
+80
+85
+90
+95
+100
+
+
+#----------------------#
+#Q3
+1st side of triangle(cm): 3
+2nd side of triangle(cm): 4
+3rd side of triangle(cm): 5
+The area of triangle with side 3.0 cm , 4.0 cm , 5.0 cm is: 6.0 cm^2
+
+
+#----------------------#
+#Q4
+
+* 
+* * 
+* * * 
+* * * * 
+* * * * * 
+* * * * 
+* * * 
+* * 
+* 
+
+
+#----------------------#
+#Q5
+A
+BC
+DEF
+GHIJ
+KLMNO
+
+
+#----------------------#
+#Q6
+Enter starting number of range: 1
+Enter ending number of range: 50
+The Prime Numbers in the range (1,50) are: 
+2
+3
+5
+7
+11
+13
+17
+19
+23
+29
+31
+37
+41
+43
+47
+
+
+#----------------------#
+#Q7
+0
+77
+154
+231
+308
+385
+462
+
+
+#----------------------#
+#Q8
+Press 'enter' to enter 10 integers.
+1st number: 1
+2nd number: 2
+3rd number: 45
+4th number: 34
+5th number: -57
+6th number: -68
+7th number: -21
+8th number: -90
+9th number: 28
+10th number: 8
+A) -57
+ -68
+ -21
+ -90
+B) 1
+ 2
+ 45
+ 34
+ 28
+ 8
+C) 1
+ 45
+ -57
+ -21
+D) 2
+ 34
+ -68
+ -90
+ 28
+ 8
+E) Occurence of a number in the list:  {1: 1, 2: 1, 45: 1, 34: 1, -57: 1, -68: 1, -21: 1, -90: 1, 28: 1, 8: 1}
+
+
+#----------------------#
+#Q9
+Enter a sentence: my name is keshav and my sid is 21107049
+Counter({'my': 2, 'is': 2, 'name': 1, 'keshav': 1, 'and': 1, 'sid': 1, '21107049': 1})
+#----------------------#
