@@ -1,0 +1,166 @@
+'''
+Assignment-5 (Python)(Codes-input)
+Keshav Mathur
+21107049
+Mechanical Engineering
+'''
+
+#----------------------------#
+#Q1
+
+#Asking user for wrod/statement.
+a=input("Enter a word or statement: ")
+
+#reversing the statement/word using below code.
+print(f"The reverse of '{a}' is:", a[::-1])
+
+
+#----------------------------#
+#Q2
+
+#Asking user for the range and the number to be divided with.
+a=int(input("Enter the starting number of the range (including it): "))
+b=int(input("Enter the ending number of the range (including it): "))
+c=int(input("Number to be divided with the range of number: "))
+
+#Using 'for' loop to finding the required output.
+for i in range(a,b):
+    a=a+1
+    if a%c==0:
+        print(a)
+    elif a==b:
+        print("END")
+    
+
+
+#----------------------------#
+#Q3
+
+#Asking user for the values of sides of triangle.
+a=float(input("1st side of triangle(cm): "))
+b=float(input("2nd side of triangle(cm): "))
+c=float(input("3rd side of triangle(cm): "))
+
+#Evaluating semiperimeter.
+s=float((a+b+c)/2)
+
+#Giving 'd' a certain value to easy our calculation.
+d=float(s*(s-a)*(s-b)*(s-c))
+
+#Using 'if_else' for finding the area of triangle using heron's formula.
+if a+b>c and a+c>b and b+c>a:
+    print(f"The area of triangle with side {a} cm , {b} cm , {c} cm is:" ,(d)**(1/2), "cm^2")
+else:
+    print("Triangle doesn't exists.")
+
+
+#----------------------------#
+#Q4
+
+#Assuming n=5, means the maximum number of stars to be come as in output.
+n=5
+
+#Using loop for getting the desired output.
+for i in range(n):
+    print(i*"* ")
+for z in range(n,0,-1):
+    print(z*"* ")
+
+
+#----------------------------#
+#Q5
+a = 65
+
+# outer loop for ith rows
+for i in range(0,5):
+    # inner loop for jth columns
+    for j in range(0,i+1):
+        char = chr(a)
+        print(char,end="")
+        a += 1
+    print()
+
+
+#----------------------------#
+#Q6
+
+#Asking user for range.
+a=int(input("Enter starting number of range: "))
+b=int(input("Enter ending number of range: "))
+
+print(f"The Prime Numbers in the range ({a},{b}) are: ")
+
+#Using 'for' loop to find the prime numbers.
+for number in range(a,b+1):
+    if number>1:
+        for i in range(2,number):
+            if(number%i)==0:
+                break
+        else:
+            print(number)
+
+
+#----------------------------#
+#Q7
+
+#Using 'for' loop to get required output.
+for x in range(0, 501):
+    if (x%7==0) and (x%11==0):
+        print(x)
+
+
+#----------------------------#
+#Q8
+print("Question 8th")
+Enter=input("Press 'enter' to enter 10 integers.")
+num_1=int(input("1st number: "))
+num_2=int(input("2nd number: "))
+num_3=int(input("3rd number: "))
+num_4=int(input("4th number: "))
+num_5=int(input("5th number: "))
+num_6=int(input("6th number: "))
+num_7=int(input("7th number: "))
+num_8=int(input("8th number: "))
+num_9=int(input("9th number: "))
+num_10=int(input("10th number: "))
+a=[num_1, num_2, num_3, num_4, num_5, num_6, num_7, num_8, num_9, num_10]
+print("A)", end="")
+for i in a:
+    if i < 0:
+        print(f" {i}")
+
+print("B)", end="")
+for j in a:
+    if j>0:
+        print(f" {j}")
+
+print("C)", end="")
+for k in a:
+    if k%2==1:
+        print(f" {k}")
+
+print("D)", end="")
+for m in a:
+    if m%2==0:
+        print(f" {m}")
+
+print("E)", end="")
+freq={}
+for l in a:
+    if l in freq:
+        freq[l]+=1
+    else:
+        freq[l]=1
+print(" Occurence of a number in the list: ", freq)
+
+
+#----------------------------#
+#Q9
+
+#Importing 'counter' from collections section of python library.
+from collections import Counter
+
+#Asking user for the sentence.
+a=input("Enter a sentence: ")
+print(Counter(a.split(" ")))
+#----------------------------#
